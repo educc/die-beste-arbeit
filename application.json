@@ -1,0 +1,7 @@
+{
+  "firstNavigationPage": "https://www.make-it-in-germany.com/en/jobs/job-listings/?tx_vcjobs_list%5BcurrentPage%5D=1&tx_vcjobs_list%5Bfilters%5D%5Bregion%5D=&tx_vcjobs_list%5Bfilters%5D%5BoccupationGroup%5D=&tx_vcjobs_list%5Bfilters%5D%5BsearchString%5D=Occupations%20in%20software%20development-highly%20complex%20tasks&tx_vcjobs_list%5Bfilters%5D%5BsuggestOccupationGroup%5D=1651&tx_vcjobs_list%5Bfilters%5D%5BsearchBySuggest%5D=1&tx_vcjobs_list%5Bfilters%5D%5BsearchByInput%5D=0&tx_vcjobs_list%5Baction%5D=search&tx_vcjobs_list%5Bcontroller%5D=Job&cHash=6d05b88fa3713012bda70b2b9b9d6826",
+  "outDir": {
+    "navigationPages": "./out/navigation_pages",
+    "jobPages": "./out/job_pages"
+  }
+}
