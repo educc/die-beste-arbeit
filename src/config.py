@@ -9,11 +9,13 @@ class ConfigApp:
         self.first_navigation_page = None
         self.out_dir_navigation_pages = None
         self.out_dir_job_pages = None
+        self.filename_jobs_html_files = None
 
     def load_from_json(self, json_filename):
         with open(json_filename, "r") as f:
             data = json.load(f)
             self.first_navigation_page = data.get("firstNavigationPage", None)
+            self.filename_jobs_html_files = data.get("filenameJobsHtmlFiles", None)
 
             if "outDir" in data:
                 self.out_dir_navigation_pages = data["outDir"].get("navigationPages", None)
