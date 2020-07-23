@@ -52,7 +52,7 @@ def main():
     data = list(map(create_page_from_url, iter_jobs_url()))
     create_downloaded_file(data)
 
-    downloader = Downloader(16)
+    downloader = Downloader(1)
     downloader.save(data)
 
 
